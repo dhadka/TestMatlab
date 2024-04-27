@@ -13,3 +13,5 @@ jobs:
         uses: matlab-actions/run-command@v2
         with:
           command: version
+      - name: Run matlab
+        run: matlab -batch version
